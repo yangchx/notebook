@@ -1,0 +1,32 @@
+1.查看Ubuntu系统已安装的python版本及当前使用的python版本
+2.设置update-alternatives  切换python版本
+
+显示Python代替版本信息
+
+update-alternatives --list python 
+
+执行后显示
+
+update-alternatives: error: no alternatives for python 表示Python代替版本尚未安装
+
+执行一下命令安装
+
+update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
+
+update-alternatives: using /usr/bin/python2.7 to provide /usr/bin/python (python) in auto mode
+
+update-alternatives --install /usr/bin/python python /usr/bin/python3.5 2
+
+update-alternatives: using /usr/bin/python3.5 to provide /usr/bin/python (python) in auto mode
+
+查看默认版本
+
+python --version
+
+上述命令中因为我们设置 /usr/bin/python3.5 设置的优先级为2 所以update-alternatives命令自己设置3.5为默认
+
+再次显示Python代替版本信息
+
+update-alternatives --list python 
+
+切换版本update-alternatives --config python

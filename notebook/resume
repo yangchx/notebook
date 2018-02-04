@@ -1,0 +1,88 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{杨晨星}
+
+\basicInfo{
+  \email{978897961@qq.com} \textperiodcentered\ 
+  \phone{(+86) 176-8819-1135} \textperiodcentered\ }
+ 
+ \section{\faHeartO\ 报考学校及成绩}
+% increase linespacing [parsep=0.5ex]
+\datedsubsection{\textbf{复旦大学}： 管理学院, 管理科学与工程专业硕博连读项目}{}
+
+\begin{center}
+\textbf{初试成绩}\\
+\setlength{\tabcolsep}{8mm}{
+\begin{tabular}{|c|c|c|c|c|}
+	\hline 政治 &英语一& 数学一& 微观经济学 & 总分\\
+	\hline 53&49&112&130&344\\
+	\hline
+%\bottomrule
+\end{tabular}}
+\end{center}
+
+
+
+\section{\faGraduationCap\  教育背景}
+\datedsubsection{\textbf{兰州大学}, 兰州, 甘肃}{2013.9 -- 2017.7}
+\textit{本科}\ 专业：通信工程
+
+\section{\faUsers\ 实习/项目经历}
+\datedsubsection{\textbf{魅族科技有限公司} ,珠海,广东}{2016.7 -- 2017.3}
+\role{实习}{BSP部门: 安卓手机驱动开发}
+
+\datedsubsection{\textbf{专业比赛和校内项目}}{}
+\begin{onehalfspacing}
+\begin{itemize}
+  \item 2016 年第十二届“博创杯”嵌入式比赛（基于物联网的多功能保险箱系统） 全国三等奖、西北赛区特等奖 ,主要负责人
+  \item 2016 年全国物联网大学生物联网设计竞赛（基于观赏鱼社区大数据的智能鱼缸系统） 西北赛区二等奖 ,队长
+  \item 2015 年全国大学生电子设计竞赛（风力摆控制系统）甘肃省优胜奖 ,队长
+  \item 2015 年兰州大学创新创业（校级）基于物联网的智能交通系统,队长
+  \item 2015 年兰州大学创新创业（校级）基于物联网的室内环境监测系统,主要成员
+\end{itemize}
+\end{onehalfspacing}
+
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: C == Python > Matlab
+  \item 编程能力较强，有C语言项目开发经验，编程自学能力很强
+  \item 平台: Linux
+\end{itemize}
+
+
+\section{\faHeartO\ 研究生方向}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 数据分析、大数据在运营中的应用、供应链管理
+\end{itemize}
+
+\section{\faInfo\ 个人评价}
+% increase linespacing [parsep=0.5ex]
+勤奋努力、积极向上，自学能力很强，编程能力强，创新能力和创新意识较强，乐于挑战困难，做事充满活力。最近在自学统计学、矩阵理论方面知识，研究生准备做大数据的应用方向。有继续攻读博士的计划，研究生具体研究方向和导师协商。
+    
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
+
